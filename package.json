@@ -1,0 +1,20 @@
+{
+  "name": "excelconverter",
+  "version": "1.0.0",
+  "description": "application to convert excel files into csv",
+  "main": "main.ts",
+  "scripts": {
+    "start": "rimraf ./dist/ && tsc && node ./dist/ExcelConverter.js"
+  },
+  "author": "ediyono",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.17",
+    "@types/winston": "^2.3.4",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.4.2"
+  }
+}
